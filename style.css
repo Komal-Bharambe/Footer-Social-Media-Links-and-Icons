@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.socialmedia{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 115px;
+    box-shadow: 2px 4px 2px 2px #dcdcdc;
+}
+a i{
+    transition: all .3s linear;
+}
+a:hover i{
+    font-size: 50px;
+}
+
+.fa-linkedin{
+    color: blue;
+}
+
+.fa-instagram{
+    color: deeppink;
+}
+.fa-facebook{
+    color: darkblue;
+}
+.fa-google{
+    color: orangered;
+}
